@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "fastapi-graphql"
+version = "0.1.0"
+description = "A sample fastapi graphql app"
+authors = ["pk8189 <pmkelly4444@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.4"
+SQLAlchemy = "^1.4.12"
+psycopg2 = "^2.8.6"
+mypy = "^0.812"
+graphene = "^2.1.8"
+graphene-pydantic = "0.2.0"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.8.2"
+pytest = "^6.2.3"
+black = "^21.4b2"
+autoflake = "^1.4"
+isort = "^5.8.0"
+pytest-mypy = "^0.8.1"
+pytest-cov = "^2.11.1"
+
+[build-system]
+requires = ["poetry>=1.1.6"]
+build-backend = "poetry.masonry.api"
